@@ -1,0 +1,40 @@
+.section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.main-head{
+    color: r(204,18,18);
+    font-size: 26px;
+}
+.underline{
+    height: 04px;
+    width: 10rem;
+    background-color: #f76c2f;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bg-c-light{
+    background-color: #f2f2f2;
+}
+.underline2{
+    height: 04px;
+    width: 20rem;
+    background-color: #f76c2f;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+.p{
+    font-size: 14px;
+    color: #262626;
+}
+.card img {
+    height: 250px; /* Adjust the height to your requirement */
+    object-fit: cover; /* Ensures the image scales and covers the area without distortion */
+  }
+.footer a{
+    color: #fff;
+    text-decoration:none! important;
+}  
+.footer a:hover{
+    color: gray;
+}
