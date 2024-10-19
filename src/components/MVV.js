@@ -1,7 +1,12 @@
 
 import React from 'react';
+import { useEffect } from 'react';
 
 export default function MVV() {
+  useEffect(() => {
+    console.log('MVV Component Mounted');
+  }, []);
+  
   return (
     <div>
       <section className='section bg-c-light border-top'>
